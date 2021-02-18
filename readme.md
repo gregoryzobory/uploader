@@ -184,10 +184,9 @@ Check how many images uploaded:
 $count = 0;
 
 foreach (glob('logs/stats*.json') as $file) {
-	$stats = json_decode(file_get_contents($file));
-	$count += $stats->success;
+    $stats = json_decode(file_get_contents($file));
+    $count += $stats->success;
 }
-
 
 echo "Uploaded: {$count}\n";
 ```
