@@ -176,3 +176,22 @@ Time for magic ✨
 ```bash
 $ python run.py <count_threads>
 ```
+
+Check how many images uploaded:
+```php
+<?php 
+
+$count = 0;
+
+foreach (glob('logs/stats*.json') as $file) {
+	$stats = json_decode(file_get_contents($file));
+	$count += $stats->success;
+}
+
+
+echo "Uploaded: {$count}\n";
+```
+
+```bash
+$ php count.php
+```
