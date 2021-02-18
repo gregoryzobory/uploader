@@ -81,7 +81,7 @@ $ mkdir uploader && cd uploader
 ```
 
 ```bash
-$ mkdir mkdir logs
+$ mkdir logs
 ```
 
 > It is important, before that you have already uploaded several screenshots and your cache is saved in a file `logs/_cache.json` so that you do not upload a new picture every time.
