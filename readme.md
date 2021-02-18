@@ -194,3 +194,8 @@ echo "Uploaded: {$count}\n";
 ```bash
 $ php count.php
 ```
+
+## Disclaimer
+This repository is for educational purposes only.
+
+Dont abuse, the owner of the repository does not bear any responsibility for the harm caused by this repository.
